@@ -1,8 +1,8 @@
 import cv2
 import mediapipe as mp
 
-mp_face_detection = mp.solutions.face_detection
-mp_drawing = mp.solutions.drawing_utils
+import mediapipe.python.solutions.face_detection as mp_face_detection
+import mediapipe.python.solutions.drawing_utils as mp_drawing
 
 cap = cv2.VideoCapture(0)
 
